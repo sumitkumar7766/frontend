@@ -9,7 +9,6 @@ import Universe from "./Universe";
 function ProductsPage() {
     return (
         <>
-            <Navbar />
             <Hero />
             <LeftSelection
                 imageURL="media/images/kite.png"
@@ -45,7 +44,6 @@ function ProductsPage() {
                 productName="Varsity mobile" 
                 productDesription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." />
             <Universe />
-            <Footer />
         </>
     )
 }

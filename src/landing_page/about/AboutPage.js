@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
 
-function AboutPage() {
-    return ( 
-        <h1>About Page</h1>
-     );
+import Hero from "./Hero";
+import Team from "./Team";
+
+function PricingPage() {
+  return (
+    <>
+      <Hero />
+      <Team />
+    </>
+  );
 }
 
-export default AboutPage;
+export default PricingPage;
